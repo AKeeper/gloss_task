@@ -17,7 +17,10 @@ header .row-fluid {
     background-color: #ff003c;
     z-index: 2;
 }
-
+header nav {
+    height: 48px;
+    background-color: #43aa26;
+}
 header .row-fluid .col-md-6:first-child {
     background: #219fff;
     height: 52px;
@@ -116,6 +119,9 @@ main .book_shadow {
     position: absolute;
     left: 50%;
 }
+
+
+
 
 main .row {
     position: absolute;
