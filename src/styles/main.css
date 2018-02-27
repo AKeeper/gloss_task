@@ -10,6 +10,13 @@
      }
 }
 
+body {
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #ffffff;
+}
 
 header .row-fluid {
     position: relative;
@@ -17,9 +24,14 @@ header .row-fluid {
     background-color: #ff003c;
     z-index: 2;
 }
+
 header nav {
     height: 48px;
     background-color: #43aa26;
+}
+
+.header-box {
+    height: 87px;
 }
 header .row-fluid .col-md-6:first-child {
     background: #219fff;
@@ -132,51 +144,27 @@ main .row {
     z-index: 1;
 }
 
-main .main_menu {
+main .main-menu {
     position: absolute;
+    padding: 30px;
     top: 26%;
-    left: 16%;
-    font-family: Calibri;
-    color: #ffffff;
+    left: 60%;
+    background-color: #ffffff;
+    box-shadow: -4px 7px 18px 0px rgba(0, 0, 0, 0.2);
+    width: 451px;
+    height: 164px;
+}
+.main-menu h2 {
+    margin: 0;
+    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 36px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    background-color: #ffffff;
+}
+.main-menu p {
+    font-size: 14px;
 
 }
 
-main .next_seans {
-    position: absolute;
-    font-family: Calibri;
-    color: #ffffff;
-    font-size: 10px;
-    text-align: right;
-    text-shadow: 1px 2px 1.98px #000000;
-    left: 650px;
-    top: -162px;
-    height: 40px;
-    width: 101px;
-}
-
-main a:link {
-    font-size: 16px;
-    color: #ffffff;
-}
-
-main a:visited {
-    font-size: 16px;
-    color: #ffffff;
-}
-
-main a:hover {
-    font-size: 16px;
-    color: #ffffff;
-}
-
-main .next_seans > p {
-    margin-bottom: 0;
-}
 
 main .carousel {
     background-color: gray;
@@ -192,15 +180,6 @@ main .carousel-inner>.item>img.carousel_image{
     /*z-index: -1;*/
     object-fit: cover;
     background-color: rgba(17, 30, 51, 0.82);
-}
-
-
-h2 {
-    margin: 0;
-    color: #ffffff;
-    padding-top: 90px;
-    font-size: 52px;
-    font-family: "trebuchet ms", sans-serif;
 }
 
 .item {
@@ -221,58 +200,6 @@ a.carousel-control.right {
 a.carousel-control.left {
     background-image: none;
 }
-
-/** CALENDAR **/
-main .calendar-wrapper{
-    background-color: #575757;
-}
-main .calendar_header {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 83px;
-    top: 475px;
-}
-
-.calendar {
-    padding-left: 0px;
-    padding-right: 0px;
-    background-color: #575757;
-    margin-top: 490px;
-}
-
-.calendar-content {
-    margin-top: -56px;
-    font-family: Calibri;
-    color: #97c9ff;
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
-}
-
-.table {
-    margin-bottom: 0px;
-}
-
-main table.table > tbody > tr > th,
-main table.table > tbody > tr > td {
-    border-top: none;
-}
-
-main table.table > tbody > tr:not(:nth-child(1)):not(:nth-child(2)) {
-    border-top: 1px solid grey;
-}
-
-main table.table > tbody > tr > td:not(:nth-child(1)) {
-    border-left: 1px solid grey;
-}
-
-main .week_days > th {
-    font-size: 14px;
-    text-align: center;
-}
-
-
 
 .tab-content ul.tab_gallery {
     width: 100%;
