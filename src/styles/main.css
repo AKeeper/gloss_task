@@ -39,41 +39,6 @@ header .i > img {
     text-shadow: none;
 }
 
-.vertikal {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 99px;
-    margin-left: 50%;
-    text-align: left;
-    padding: 0px;
-    margin-bottom: 150px;
-    padding-left: 10px;
-    font-family: Calibri;
-    color: #ffffff;
-    font-weight: 700;
-    line-height: 30px;
-
-}
-
-.vertikal > p {
-    color: black;
-    padding-top: 5px;
-}
-
-.vertikal > h1 {
-    font-size: 36px;
-    font-weight: 700;
-}
-
-.carousel-indicators {
-    margin: 0;
-    padding: 0;
-    width: 80px;
-    height: 30px;
-    top: 20px;
-    left: 80%;
-}
-
 .carousel-indicators li {
     background-color: black;
 }
@@ -171,7 +136,7 @@ main .main_menu {
     font-weight: 400;
     line-height: 36px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
+    background-color: #ffffff;
 
 }
 
@@ -301,41 +266,7 @@ main .week_days > th {
     text-align: center;
 }
 
-.curday {
-    font-size: 14px;
-    font-weight: 500;
-    width: auto;
-    height: auto;
-    font-family: Calibri;
-    color: #9a9da4;
-    text-align: left;
-}
 
-/*Banner*/
-.banner {
-    text-align: center;
-    height: 90px;
-    margin-top: 20px;
-    margin-bottom: 32px;
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-/*Нижняя галерея*/
-.prokat {
-    font-family: Calibri;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 0;
-}
-
-.tab-content {
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    color: black;
-
-}
 
 .tab-content ul.tab_gallery {
     width: 100%;
@@ -442,18 +373,4 @@ main .week_days > th {
     .tab-content .tab_gallery >li:not(:nth-child(-n+5)){
        display: none;
     }
-}
-
-/* FOOTER*/
-footer {
-    background-color: #575757 ;
-    text-align: center;
-    color: #ffffff;
-
-}
-footer .footer{
-    min-height: 111px;
-}
-footer .footer > div.row{
-    /*width: 940px;*/
 }
