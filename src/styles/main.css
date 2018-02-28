@@ -50,12 +50,19 @@ header .i > img {
     text-align: center;
 }
 
+.carousel-indicators {
+    margin: 0;
+    padding: 0;
+    width: 80px;
+}
+
 .carousel-caption {
     text-shadow: none;
 }
 
 .carousel-indicators li {
-    background-color: black;
+    background-color:  #43aa26;
+    border: 1.5px solid #43aa26;
 }
 
 header .city {
@@ -66,22 +73,6 @@ header .city {
     bottom: 0;
     right: 60px;
     height: 34px;
-}
-
-header .city select {
-    font-family: Calibri;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    overflow: hidden;
-    float: left;
-    border: none;
-    appearance: none;
-    padding-left: 50px;
-    background: transparent url("../image/icons/select_arrow.png") no-repeat left center;
-    -webkit-appearance: none;
-    -moz-appearance: none;
 }
 
 header .city select option {
@@ -127,14 +118,6 @@ main .slider-wrapper {
     padding-right: 0;
 }
 
-main .book_shadow {
-    position: absolute;
-    left: 50%;
-}
-
-
-
-
 main .row {
     position: absolute;
     margin-top: 150px;
@@ -150,9 +133,11 @@ main .main-menu {
     top: 26%;
     left: 60%;
     background-color: #ffffff;
-    box-shadow: -4px 7px 18px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: -4px 7px 18px 0 rgba(0, 0, 0, 0.2);
     width: 451px;
     height: 164px;
+    z-index: 1;
+    text-align: center;
 }
 .main-menu h2 {
     margin: 0;
@@ -170,8 +155,7 @@ main .carousel {
     background-color: gray;
 }
 
-main .carousel-inner>.item>img.carousel_image{
-
+main .carousel-inner>.item>img.carousel_image {
     width: 100%;
     margin-left: 0 auto;
     margin-right: 0 auto;
@@ -192,14 +176,24 @@ main .carousel-inner>.item>img.carousel_image{
 .carousel {
     margin-top: 0px;
 }
-
-a.carousel-control.right {
-    background-image: none;
+.carousel-control {
+    width: 0;
 }
-
-a.carousel-control.left {
+a.carousel-control span{
+    color: black;
     background-image: none;
+    background-color:  #43aa26;
+    height: auto;
 }
+/*a.carousel-control.right span {*/
+
+/*}*/
+
+/*a.carousel-control.left span {*/
+    /*width: 0;*/
+    /*background-image: none;*/
+    /*background-color:  #43aa26;*/
+/*}*/
 
 .tab-content ul.tab_gallery {
     width: 100%;
@@ -234,27 +228,6 @@ a.carousel-control.left {
     width: 180px;
     height: 260px;
     /*overflow: hidden;*/
-}
-
-.red-block {
-    background-color: #ff003c;
-    -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%, 0 32%);
-    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%, 0 32%);
-    width: 180px;
-    height: 100px;
-    margin-top: -100px;
-    display: table;
-}
-
-.red-block p {
-    font-family: Calibri;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 700;
-    display: table-cell;
-    text-align: left;
-    vertical-align: bottom;
-    padding: 15px;
 }
 
 .nav-tabs > li > a,
