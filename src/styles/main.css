@@ -18,7 +18,23 @@ header {
     background-color: #ffffff;
 }
 
+.header-box {
+    height: 87px;
+    margin: 0;
+}
+
+.header-box h2 {
+    font-family: Roboto;
+    color:  #4f555a;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: left;
+}
+
 header nav {
+    font-family: Cuprum;
+    font-size: 18px;
+    font-weight: 400;
     height: 48px;
     background-color: #43aa26;
 }
@@ -26,17 +42,20 @@ header nav {
     margin: 0;
     padding: 0;
     list-style: none;
+
 }
 .main-menu a {
+    text-align: center;
     height: 48px;
     display: block;
-    padding: 14px 14px;
+    padding: 14px 16px;
     text-decoration: none;
     color: #ffffff;
     border-left: 1px solid lightgrey;
 }
-.main-menu li:last-child a{
+.main-menu>li:last-child>a{
     border-right: 1px solid lightgrey;
+    font-size: 22px;
 }
 
 .main-menu a:hover {
@@ -71,10 +90,7 @@ nav ul li {
     background-color: #43aa26;
 }
 
-.header-box {
-    height: 87px;
-    margin: 0;
-}
+
 header .row-fluid .col-md-6:first-child {
     background: #219fff;
     height: 52px;
