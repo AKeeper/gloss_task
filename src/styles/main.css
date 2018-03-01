@@ -54,7 +54,6 @@ nav ul li {
     width: 150px;
 }
 .main-menu .sub-menu {
-
     position: absolute;
     top: 48px;
     left: 0px;
@@ -97,47 +96,6 @@ header .row-fluid .col-md-6:first-child {
     border: 1.5px solid #43aa26;
 }
 
-header .city {
-    width: 150px;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 60px;
-    height: 34px;
-}
-
-header .city select option {
-    color: black;
-}
-
-header .reg {
-    width: 100px;
-    margin: auto;
-    position: absolute;
-    float: left;
-    top: 0;
-    bottom: 0;
-    right: -200px;
-    height: 18px;
-    font-family: Calibri;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    overflow: hidden;
-}
-
-header .enter {
-    width: 30px;
-    float: left;
-}
-
-header .cabinet {
-    width: 55px;
-    float: right;
-}
-
 main .slider-wrapper {
     position: absolute;
     overflow: auto;
@@ -169,16 +127,17 @@ main .carousel-container {
     width: 451px;
     height: 164px;
     z-index: 1;
-    text-align: center;
+    text-align: left;
 }
 .carousel-container h2 {
+    font-family: Cuprum;
     margin: 0;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
 }
 .carousel-container p {
     font-size: 14px;
+    font-family: Roboto;
 
 }
 
