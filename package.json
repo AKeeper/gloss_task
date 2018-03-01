@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AKeeper/Portofolio"
+    "url": "git+https://github.com/AKeeper/gloss_task"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AKeeper/Portofolio/issues"
+    "url": "https://github.com/AKeeper/gloss_task/issues"
   },
-  "homepage": "https://github.com/AKeeper/Portofolio#readme",
+  "homepage": "https://github.com/AKeeper/gloss_task#readme",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "gulp-install": "^1.1.0"
