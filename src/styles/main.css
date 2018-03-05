@@ -7,7 +7,11 @@
         width: 950px;
         padding-left: 0;
         padding-right: 0;
+        display: flex;
      }
+    .row {
+        margin: 0;
+    }
 }
 
 body {
@@ -48,7 +52,7 @@ header nav {
     text-align: center;
     height: 48px;
     display: block;
-    padding: 14px 16px;
+    /*padding: 14px 15px;*/
     text-decoration: none;
     color: #ffffff;
     border-left: 1px solid lightgrey;
@@ -200,4 +204,10 @@ a.carousel-control span{
     background-image: none;
     background-color:  #43aa26;
     height: auto;
+}
+
+.order-container {
+    margin-top: 490px;
+    height: 200px;
+    background-color: #43aa26;
 }
