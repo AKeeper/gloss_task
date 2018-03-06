@@ -244,10 +244,23 @@ a.carousel-control span{
 .order-steps-item {
     text-align: center;
     height: 208px;
-    background-color: lightgray;
-    margin: 0 14px 0 14px;
+    background-color: lightpink;
+    margin: 0 15px 0 15px;
 }
-
+.order-item-icon {
+    height: 100px;
+    margin: 10% 0 10% 0;
+}
+.order-item-text {
+    height: 50px;
+    font-family: Roboto;
+    color:  #2f3031;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 .Rectangle_11_copy_3 {
     background-image: -moz-linear-gradient( 45deg, rgb(67,170,38) 0%, rgb(162,193,102) 100%);
     background-image: -webkit-linear-gradient( 45deg, rgb(67,170,38) 0%, rgb(162,193,102) 100%);
