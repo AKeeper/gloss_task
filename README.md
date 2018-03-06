@@ -1,5 +1,5 @@
 # Gloss test task
-# For view
+# How to start
 `install Node.js;
 `install gulp.js;
 `npm install`

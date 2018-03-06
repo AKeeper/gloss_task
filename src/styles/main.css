@@ -145,7 +145,8 @@ main .row {
 }
 
 main .carousel-container {
-    border-top: 10px solid #43aa26;
+    margin-top: 120px;
+    border-top: 7px solid #43aa26;
     /*position: absolute;*/
     padding: 30px;
     top: 26%;
@@ -172,6 +173,9 @@ main .carousel-container {
 
 main .carousel {
     background-color: gray;
+}
+.carousel-inner {
+    margin-top: -284px;
 }
 
 main .carousel-inner>.item>img.carousel_image {
@@ -211,9 +215,21 @@ a.carousel-control span{
 }
 
 .order-container {
+    padding: 0;
     margin-top: 490px;
-    height: 200px;
-    background-color: #43aa26;
+    background-color: white;
+}
+.angle {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    background-color: transparent;
+    border: solid #43aa26;
+    border-width: 6px 0 0 6px;
+    margin: -3px 0 0 -3px;
+}
+.order-img {
+    margin-top: -91px;
 }
 
 .Rectangle_11_copy_3 {
