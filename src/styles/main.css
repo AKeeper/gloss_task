@@ -137,11 +137,10 @@ main .slider-wrapper {
 
 main .row {
 
-    margin-top: 150px;
     width: 100%;
     margin-left: 0;
     margin-right: 0px;
-    z-index: 1;
+
 }
 
 main .carousel-container {
@@ -215,9 +214,11 @@ a.carousel-control span{
 }
 
 .order-container {
+
     padding: 0;
-    margin-top: 490px;
+    margin-top: 489px;
     background-color: white;
+    float: left;
 }
 .angle {
     position: absolute;
@@ -229,7 +230,22 @@ a.carousel-control span{
     margin: -3px 0 0 -3px;
 }
 .order-img {
+    padding: 0;
     margin-top: -91px;
+}
+.order-txt>h2{
+    text-align: center;
+    font-family: Cuprum;
+    color:  #2f3031;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.order-steps-item {
+    text-align: center;
+    height: 208px;
+    background-color: lightgray;
+    margin: 0 14px 0 14px;
 }
 
 .Rectangle_11_copy_3 {
