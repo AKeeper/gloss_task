@@ -209,7 +209,7 @@ a.carousel-control {
 a.carousel-control span{
     color: black;
     background-image: none;
-    background-color:  #43aa26;
+    background-color: #43aa26;
     height: auto;
 }
 
@@ -244,25 +244,47 @@ a.carousel-control span{
 .order-steps-item {
     text-align: center;
     height: 208px;
-    background-color: lightpink;
+    background-color: white;
     margin: 0 15px 0 15px;
+
 }
 .order-item-icon {
     height: 100px;
-    margin: 10% 0 10% 0;
+    margin: 20% 0 10% 0;
 }
 .order-item-text {
     height: 50px;
     font-family: Roboto;
     color:  #2f3031;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
 }
+.order-steps-buttons{
+    font-size: 24px;
+    height: 0;
+    margin-top: 5px;
+    margin-left: -225px;
+}
+.order-steps-buttons a{
+    color: lightgray;
+}
+.order-steps-buttons, .active a{
+    color: #43aa26;
+}
+
+.video-contaner h2{
+    margin-top: 30px;
+    font-family: Cuprum;
+    color:  #2f3031;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
 .Rectangle_11_copy_3 {
-    background-image: -moz-linear-gradient( 45deg, rgb(67,170,38) 0%, rgb(162,193,102) 100%);
+    background-image: -moz-linear-gradient( 45deg, rgb(67, 170, 38) 0%, rgb(162,193,102) 100%);
     background-image: -webkit-linear-gradient( 45deg, rgb(67,170,38) 0%, rgb(162,193,102) 100%);
     background-image: -ms-linear-gradient( 45deg, rgb(67,170,38) 0%, rgb(162,193,102) 100%);
     position: absolute;
