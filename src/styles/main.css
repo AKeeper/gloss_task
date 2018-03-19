@@ -293,7 +293,7 @@ a.carousel-control span{
 .video-gallery{
     overflow-x: scroll;
     border: solid 1px black;
-    white-space: nowrap;
+
 }
 .video-gallery::-webkit-scrollbar {
     width: 3px;
@@ -337,6 +337,7 @@ a.carousel-control span{
     top: 16%;
 }
 .video-gallery-item-description{
+
     text-align: left;
     margin-left: 65px;
     height: 100px;
@@ -344,6 +345,7 @@ a.carousel-control span{
     font-size: 16px;
     font-weight: 700;
 }
+
 .video-gallery-item-description:hover{
     color: #43aa26;
     background-color: white;
