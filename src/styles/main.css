@@ -289,28 +289,32 @@ a.carousel-control span{
 }
 .video-gallery-wraper {
     padding: 0;
+    overflow-x: scroll;
 }
 .video-gallery{
-    overflow-x: scroll;
+    text-align: left;
+    width: 1610px;
     border: solid 1px black;
 
 }
-.video-gallery::-webkit-scrollbar {
+.video-gallery-wraper::-webkit-scrollbar {
     width: 3px;
 }
-.video-gallery::-webkit-scrollbar-track {
+.video-gallery-wraper::-webkit-scrollbar-track {
     background-color: #2e6da4;
     height: 5px;
     border-radius: 1px;
 }
-.video-gallery::-webkit-scrollbar-thumb {
+.video-gallery-wraper::-webkit-scrollbar-thumb {
     background: #43aa26;
     border-radius: 1px;
 }
-.video-gallery::-webkit-scrollbar-thumb:hover {
+.video-gallery-wraper::-webkit-scrollbar-thumb:hover {
     background: #43aa26;
 }
 .video-gallery-item{
+    float: left;
+    height: 100%;
     width: 372px;
     margin: 0 15px 0 15px;
 }
@@ -321,7 +325,7 @@ a.carousel-control span{
 .video-gallery-item-button{
     margin-left: -65px;
     text-align: center;
-    top: 61%;
+    top: 56%;
     position: absolute;
     width: 50px;
     height: 50px;
@@ -337,21 +341,20 @@ a.carousel-control span{
     top: 16%;
 }
 .video-gallery-item-description{
-
     text-align: left;
     margin-left: 65px;
-    height: 100px;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
 }
-
-.video-gallery-item-description:hover{
-    color: #43aa26;
-    background-color: white;
+.video-gallery-item-description p{
+    padding-top: 10px;
+    font-family: Roboto;
+    color:  #2f3031;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
 }
-
-
 .Rectangle_11_copy_3 {
     background-image: -moz-linear-gradient( 45deg, rgb(67, 170, 38) 0%, rgb(162,193,102) 100%);
     background-image: -webkit-linear-gradient( 45deg, rgb(67,170,38) 0%, rgb(162,193,102) 100%);
