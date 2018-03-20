@@ -354,16 +354,34 @@ a.carousel-control span{
     text-align: left;
 }
 .stock-container{
+
+    height: 330px;
+    background-image: url("/image/sell.png");
     margin-top: 60px;
-    text-align: center;
+    text-align: left;
 }
-.stock-container-img-wraper{
+.stock-container-description{
     padding: 0;
 }
-.stock-container img{
-    width: 100%;
+.stock-container-description h2{
+    font-family: Cuprum;
+    color:  #ffffff;
+    font-size: 36px;
+    font-weight: 700;
 }
-
+.stock-container-description p{
+    font-family: Roboto;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.stock-container-description p a{
+    text-decoration: underline;
+    font-family: Roboto;
+    color:  #fff600;
+    font-size: 16px;
+    font-weight: 700;
+}
 .Rectangle_11_copy_3 {
     background-image: -moz-linear-gradient( 45deg, rgb(67, 170, 38) 0%, rgb(162,193,102) 100%);
     background-image: -webkit-linear-gradient( 45deg, rgb(67,170,38) 0%, rgb(162,193,102) 100%);
