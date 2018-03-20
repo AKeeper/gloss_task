@@ -369,7 +369,7 @@ a.carousel-control span{
     font-size: 36px;
     font-weight: 700;
 }
-.stock-container-description p{
+.stock-container-description>p{
     font-family: Roboto;
     color:  #ffffff;
     font-size: 14px;
@@ -381,6 +381,26 @@ a.carousel-control span{
     color:  #fff600;
     font-size: 16px;
     font-weight: 700;
+}
+.countdown-item{
+    width: 85px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    font-family: Roboto;
+    color:  #2f3031;
+    font-size: 14px;
+    font-weight: 400;
+    background-color:  #ffffff;
+    box-shadow: -3px 5px 16px 0px rgba(0, 0, 0, 0.09);
+}
+.countdown-numbers{
+    font-family: Cuprum;
+    color:  #43aa26;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
 }
 .Rectangle_11_copy_3 {
     background-image: -moz-linear-gradient( 45deg, rgb(67, 170, 38) 0%, rgb(162,193,102) 100%);

@@ -17,12 +17,14 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("countdown").innerHTML = days + " " + hours + " "
-        + minutes + " " + seconds + " ";
+    document.getElementById("countdown_days").innerHTML = days;
+    document.getElementById("countdown_hours").innerHTML = hours;
+    document.getElementById("countdown_minutes").innerHTML = minutes;
+    document.getElementById("countdown_seconds").innerHTML = seconds;
 
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "ЗАКОНЧИЛАСЬ";
+        document.getElementById("countdown_days").innerHTML = "ЗАКОНЧИЛАСЬ";
     }
 }, 1000);
