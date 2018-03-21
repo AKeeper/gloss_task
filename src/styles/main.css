@@ -113,18 +113,22 @@ header .row-fluid .col-md-6:first-child {
     margin-top: 16px;
 }
 
-.carousel-indicators {
+#mycarousel .carousel-indicators {
     margin: 0;
     padding: 0;
     width: 80px;
 }
 
-.carousel-caption {
+#mycarousel .carousel-caption {
     text-shadow: none;
 }
 
-.carousel-indicators li {
+#mycarousel .carousel-indicators li {
     background-color:  #43aa26;
+    border: 1.5px solid #43aa26;
+}
+#mycarousel .carousel-indicators .active{
+    background-color:  white;
     border: 1.5px solid #43aa26;
 }
 
@@ -148,7 +152,7 @@ main .row {
 
 }
 
-main .carousel-container {
+main #mycarousel .carousel-container {
     margin-top: 120px;
     border-top: 7px solid #43aa26;
     /*position: absolute;*/
@@ -162,27 +166,27 @@ main .carousel-container {
     z-index: 1;
     text-align: left;
 }
-.carousel-container h2 {
+#mycarousel .carousel-container h2 {
     font-family: Cuprum;
     margin: 0;
     font-size: 16px;
     font-weight: 400;
 }
-.carousel-container p {
+#mycarousel .carousel-container p {
     font-size: 14px;
     font-family: Roboto;
 
 }
 
 
-main .carousel {
+main #mycarousel .carousel {
     background-color: gray;
 }
-.carousel-inner {
+#mycarousel .carousel-inner {
     margin-top: -284px;
 }
 
-main .carousel-inner>.item>img.carousel_image {
+main #mycarousel .carousel-inner>.item>img.carousel_image {
     width: 100%;
     margin-left: 0 auto;
     margin-right: 0 auto;
@@ -193,17 +197,17 @@ main .carousel-inner>.item>img.carousel_image {
     background-color: rgba(17, 30, 51, 0.82);
 }
 
-.item {
+#mycarousel .item {
     background: #333;
     text-align: center;
     height: auto;
 
 }
 
-.carousel {
+#mycarousel .carousel {
     margin-top: 0;
 }
-.carousel-control {
+#mycarousel .carousel-control {
     font-size: 24px;
     top: 40%;
     width: 0;
@@ -211,7 +215,7 @@ main .carousel-inner>.item>img.carousel_image {
 a.carousel-control {
 
 }
-a.carousel-control span{
+#mycarousel a.carousel-control span{
     color: black;
     background-image: none;
     background-color: #43aa26;
@@ -420,9 +424,9 @@ a.carousel-control span{
     display:inline-block;
     text-align: center;
 }
-.tabs > div{
-    padding-top: 10px;
-}
+/*.tabs > div{*/
+    /*padding-top: 10px;*/
+/*}*/
 .tabs ul{
     margin-left: 19%;
 }
