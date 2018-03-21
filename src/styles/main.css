@@ -470,12 +470,18 @@ a.carousel-control {
      box-shadow: none;
 }
 .catalog-container-tabs img {
-    padding: 10px 0;
+    padding: 10px 5px;
 }
 .catalog-container-tabs p {
     font-family: Roboto;
     color: #2f3031;
     font-size: 16px;
+    font-weight: 700;
+}
+.catalog-container-tabs p span{
+    font-family: Cuprum;
+    color:  #2f3031;
+    font-size: 36px;
     font-weight: 700;
 }
 .catalog-tabs-item{
@@ -484,6 +490,7 @@ a.carousel-control {
     padding: 0;
     background-color: white;
     margin: 15px;
+    text-align: center;
 }
 .catalog-container-tabs .carousel-control{
     background-image: none;
@@ -498,4 +505,30 @@ a.carousel-control {
     background-color: white;
     filter: none;
     opacity: 1;
+}
+.catalog-tabs-item-separartor{
+    background-color: #43aa26;
+    width: 59px;
+    height: 3px;
+    margin: 20px 40%;
+}
+.calculation-button{
+    background-color: #43aa26;
+    margin: 10% 15%;
+
+}
+.calculation-button a{
+    text-decoration: none;
+}
+.calculation-button p{
+    font-family: Cuprum;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding: 5px;
+}
+.calculation-button:hover p{
+    background-color:  white;
+    outline: 2px solid #43aa26;
+    color: #43aa26;
 }
