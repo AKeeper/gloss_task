@@ -410,3 +410,45 @@ a.carousel-control span{
 .catalog-container-caption{
     text-align: center;
 }
+.catalog-container-caption h2{
+    font-family: Cuprum;
+    color:  #2f3031;
+    font-size: 36px;
+    font-weight: 700;
+}
+.tabs{
+    display:inline-block;
+    text-align: center;
+}
+.tabs > div{
+    padding-top: 10px;
+}
+.tabs ul{
+    margin-left: 19%;
+}
+.tabs ul:after{
+    content:"";
+    display:block;
+    clear:both;
+    background:#43aa26;
+}
+.tabs ul li{
+    font-family: Roboto;
+    color:  #2f3031;
+    font-size: 16px;
+    font-weight: 700;
+    margin:1px;
+    cursor:pointer;
+    display:block;
+    float:left;
+    padding:10px 25px;
+    background: white;
+}
+.tabs ul li.active, .tabs ul li.active:hover{
+    background:white;
+    color: #43aa26;
+    outline: 2px solid #43aa26;
+}
+.tabs ul li:hover{
+    background:#d6d6d7;
+}
