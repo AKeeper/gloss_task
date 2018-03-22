@@ -16,7 +16,7 @@ gulp.task('js', function() {
     gulp
         .src([
             './src/js/*.js',
-            './node_modules/bootstrap/dist/js/bootstrap.min.js'
+            './node_modules/bootstrap/dist/js/bootstrap.js'
         ])
         .pipe(gulp.dest('./build/js/'))
         .pipe(browserSync.stream());
@@ -45,7 +45,7 @@ gulp.task('css', function() {
         .src([
             './src/styles/main.css',
             './src/styles/**/*.css',
-            '/node_modules/bootstrap/dist/css/bootstrap.min.css'
+            './node_modules/bootstrap/dist/css/bootstrap.min.css'
         ])
         // .pipe(less())
         // .pipe(autoprefixer({
