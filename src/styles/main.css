@@ -172,6 +172,7 @@ header .row-fluid .col-md-6:first-child {
     margin: 0;
     padding: 0;
     width: 80px;
+    left: 42%;
 }
 
 #mycarousel .carousel-caption {
@@ -224,24 +225,22 @@ main #mycarousel .carousel-container {
 #mycarousel .carousel-container h2 {
     font-family: Cuprum;
     margin: 0;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 600;
 }
 #mycarousel .carousel-container p {
+    padding-top: 10px;
     font-size: 14px;
     font-family: Roboto;
 
 }
-
-
 main #mycarousel .carousel {
     background-color: gray;
 }
 #mycarousel .carousel-inner {
     margin-top: -284px;
 }
-
-main #mycarousel .carousel-inner>.item>img.carousel_image {
+#mycarousel .carousel-inner>.item>img.carousel_image {
     width: 100%;
     margin-left: 0 auto;
     margin-right: 0 auto;
@@ -275,14 +274,42 @@ main #mycarousel .carousel-inner>.item>img.carousel_image {
     filter: none;
     opacity: 1;
 }
-#mycarousel a.carousel-control .left{
-    left: -10px;
+#mycarousel a.left{
+    left: -4%;
+}
+#mycarousel a.right{
+
+    left: 99%;
 }
 #mycarousel a.carousel-control span{
     color: black;
     background-image: none;
     background-color: transparent;
     height: auto;
+}
+#mycarousel a.carousel-control:hover span{
+    color: #43aa26;
+}
+
+#mycarousel .triangle-right{
+    position: absolute;
+    transform: rotate(-45deg);
+    background-color: white;
+    box-shadow: none;
+    width: 29px;
+    height: 29px;
+    top: 62px;
+    left: 473px;
+}
+#mycarousel .triangle-left{
+    position: absolute;
+    transform: rotate(-45deg);
+    background-color: white;
+    box-shadow: none;
+    width: 29px;
+    height: 29px;
+    top: 62px;
+    left: -15px;
 }
 
 .order-container {
@@ -354,6 +381,7 @@ main #mycarousel .carousel-inner>.item>img.carousel_image {
     font-size: 36px;
     font-weight: 700;
     text-align: left;
+    padding: 0;
 }
 .video-gallery-wraper {
     padding: 0;
