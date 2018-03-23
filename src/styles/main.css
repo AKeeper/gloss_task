@@ -815,23 +815,24 @@ hr{
 }
 .map{
     margin-top: 40px;
+    display: block;
 }
 .footer-navigation-menu{
     z-index: 21;
     padding: 0;
     text-align: center;
     width: 450px;
-    position: fixed;
+    position: absolute;
     background-color: white;
-    left: 58%;
-    top: 38%;
     display: inline-block;
+    margin-top: -330px;
+    left: 58%;
 
 }
 .footer-logo-box{
     display: inline-block;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px 0;
+    padding: 0 5%;
 }
 .footer-logo-box h2{
     margin: 0;
