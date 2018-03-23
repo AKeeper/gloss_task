@@ -817,19 +817,20 @@ hr{
     margin-top: 40px;
 }
 .footer-navigation-menu{
+    z-index: 21;
     padding: 0;
     text-align: center;
     width: 450px;
-    position: relative;
+    position: fixed;
     background-color: white;
-    left:10px;
-    top:100px;
+    left: 58%;
+    top: 38%;
     display: inline-block;
 
 }
 .footer-logo-box{
     display: inline-block;
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
 }
 .footer-logo-box h2{
@@ -850,43 +851,48 @@ hr{
     margin-right: 15px;
 }
 .footer-logo-box-menu-wraper{
-    margin: 0 20px;
+    margin: 20px 20px;
 }
 .footer-menu{
-    margin: 0;
     list-style: none;
     display: inline-block;
     padding: 0;
+    text-align: left;
+    margin: 0 20px;
 }
 .footer-menu a {
     text-align: left;
-    padding: 5px;
+    padding: 0;
     text-decoration: none;
     color: black;
 }
 .footer-menu a:hover {
-    background: white;
     color: #43aa26;
+    border-bottom: 2px solid #43aa26;
+    padding-bottom: 2px;
 }
 
 .footer-menu > li {
     position: relative;
+    padding: 5px 0;
 }
 footer ul li {
 }
 .footer-sub-menu li {
+    margin: 0 20px;
     width: 150px;
+    padding: 5px 0;
 }
 .footer-menu .footer-sub-menu {
     position: absolute;
-    top: 48px;
-    left: 150px;
+    top: 17px;
+    left: 90px;
     z-index: 10;
     display: none;
     margin: 0;
     padding: 0;
     list-style: none;
-    background-color: #43aa26;
+    background-color: white;
     box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -896,5 +902,20 @@ footer ul li {
     background-color: white;
 }
 .footer-phone-box{
-    margin-top: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+.footer-phone-box>p{
+    margin: 5px;
+    float: left;
+    height: 1em;
+    line-height: 1em;
+    font-family: Cuprum;
+    color:  #2f3031;
+    font-size: 26px;
+    font-weight: 400;
+}
+.footer-callback{
+    margin-left: 10px;
+    float: left;
 }
