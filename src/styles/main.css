@@ -22,7 +22,6 @@
         display: block;
     }
 }
-
 body {
     background-color: #f0f0f0;
 }
@@ -37,7 +36,6 @@ header {
 .header-logo-box{
     display: block;
     padding: 20px 0;
-
 }
 .header-logo-box img{
     float: left;
@@ -78,7 +76,6 @@ header {
     padding: 0 5px;
     border: none;
     background-color: #4cae4c;
-
 }
 .header-callback-button>p{
     display: inline-block;
@@ -124,12 +121,10 @@ header nav {
     border-right: 1px solid lightgrey;
     font-size: 22px;
 }
-
 .main-menu a:hover {
     background: white;
     color: #43aa26;
 }
-
 .main-menu > li {
     position: relative;
 }
@@ -153,31 +148,25 @@ nav ul li {
     list-style: none;
     background-color: #43aa26;
 }
-
 .main-menu > li:hover .sub-menu {
     display: block;
     color: #43aa26;
     background-color: #43aa26;
 }
-
-
 header .row-fluid .col-md-6:first-child {
     background: #219fff;
     height: 52px;
     margin-top: 16px;
 }
-
 #mycarousel .carousel-indicators {
     margin: 0;
     padding: 0;
     width: 80px;
     left: 42%;
 }
-
 #mycarousel .carousel-caption {
     text-shadow: none;
 }
-
 #mycarousel .carousel-indicators li {
     background-color:  #43aa26;
     border: 1.5px solid #43aa26;
@@ -186,7 +175,6 @@ header .row-fluid .col-md-6:first-child {
     background-color:  white;
     border: 1.5px solid #43aa26;
 }
-
 main .slider-wrapper {
     position: absolute;
     overflow: auto;
@@ -198,15 +186,11 @@ main .slider-wrapper {
     padding-left: 0;
     padding-right: 0;
 }
-
 main .row {
-
     width: 100%;
     margin-left: 0;
     margin-right: 0px;
-
 }
-
 main #mycarousel .carousel-container {
     margin-top: 120px;
     border-top: 7px solid #43aa26;
@@ -231,7 +215,6 @@ main #mycarousel .carousel-container {
     padding-top: 10px;
     font-size: 14px;
     font-family: Roboto;
-
 }
 main #mycarousel .carousel {
     background-color: gray;
@@ -249,14 +232,11 @@ main #mycarousel .carousel {
     object-fit: cover;
     background-color: rgba(17, 30, 51, 0.82);
 }
-
 #mycarousel .item {
     background: #333;
     text-align: center;
     height: auto;
-
 }
-
 #mycarousel .carousel {
     margin-top: 0;
 }
@@ -274,23 +254,25 @@ main #mycarousel .carousel {
     opacity: 1;
 }
 #mycarousel a.left{
-    left: -4%;
+    left: -5px;
+    top: -3px;
 }
 #mycarousel a.right{
-
-    left: 99%;
+    left: 1px;
+    top: 3px;
 }
 #mycarousel a.carousel-control span{
+    transform: rotate(45deg);
     color: black;
     background-image: none;
     background-color: transparent;
-    height: auto;
+    width: 30px;
+    height: 30px;
 }
 #mycarousel a.carousel-control:hover span{
-    color: #43aa26;
+    color: white;
 }
-
-#mycarousel .triangle-right{
+.carousel-container-triangle{
     position: absolute;
     transform: rotate(-45deg);
     background-color: white;
@@ -298,21 +280,20 @@ main #mycarousel .carousel {
     width: 29px;
     height: 29px;
     top: 62px;
+}
+.carousel-container-triangle:hover{
+    background-color: #43aa26;
+}
+.carousel-container-triangle span:hover{
+    color: white;
+}
+#mycarousel .triangle-right{
     left: 473px;
 }
 #mycarousel .triangle-left{
-    position: absolute;
-    transform: rotate(-45deg);
-    background-color: white;
-    box-shadow: none;
-    width: 29px;
-    height: 29px;
-    top: 62px;
     left: -15px;
 }
-
 .order-container {
-
     padding: 0;
     margin-top: 489px;
     background-color: white;
@@ -338,13 +319,11 @@ main #mycarousel .carousel {
     font-size: 36px;
     font-weight: 700;
 }
-
 .order-steps-item {
     text-align: center;
     height: 208px;
     background-color: white;
     margin: 0 15px 0 15px;
-
 }
 .order-item-icon {
     height: 100px;
@@ -372,7 +351,6 @@ main #mycarousel .carousel {
 .order-steps-buttons, .active a{
     color: #43aa26;
 }
-
 .video-container h2{
     margin-top: 30px;
     font-family: Cuprum;
@@ -410,10 +388,6 @@ main #mycarousel .carousel {
     height: 100%;
     width: 372px;
     margin: 0 15px 0 15px;
-}
-
-
-.video-gallery-item-preview {
 }
 .video-gallery-item-button{
     margin-left: -65px;
@@ -513,9 +487,6 @@ main #mycarousel .carousel {
     display:inline-block;
     text-align: center;
 }
-/*.tabs > div{*/
-    /*padding-top: 10px;*/
-/*}*/
 .tabs ul{
     margin-left: 19%;
 }
@@ -587,13 +558,18 @@ main #mycarousel .carousel {
     top: 47%;
     bottom: 47%;
     width: 1%;
-    font-size: 20px;
+    font-size: 24px;
     color: black;
     text-align: center;
     text-shadow: none;
-    background-color: white;
     filter: none;
     opacity: 1;
+}
+.catalog-container-tabs a.left{
+    left: -27px;
+}
+.catalog-container-tabs .carousel-control:hover{
+    color: #43aa26;
 }
 .catalog-tabs-item-separartor{
     background-color: #43aa26;
@@ -604,7 +580,6 @@ main #mycarousel .carousel {
 .calculation-button{
     background-color: #43aa26;
     margin: 10% 15%;
-
 }
 .calculation-button a{
     text-decoration: none;
@@ -679,7 +654,6 @@ hr{
     border-radius: 100%;
     margin: auto;
     margin-top: 20px;
-
 }
 .popular-container-action-information p{
     margin: -6px;
@@ -687,7 +661,6 @@ hr{
     color:  #43aa26;
     font-size: 48px;
     font-weight: 700;
-
 }
 .popular-hover-wraper{
     width: 350px;
@@ -710,7 +683,6 @@ hr{
     left: 270px;
     box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.5);
 }
-
 .popular-hover-block{
     float: left;
     width: 265px;
@@ -721,7 +693,6 @@ hr{
     background-color: white;
     box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.5);
 }
-
 .popular-hover-block>p{
     font-family: Roboto;
     color:  #2f3031;
@@ -730,11 +701,9 @@ hr{
     text-align: left;
     margin: 0;
 }
-
 .popular-container-action-information:hover .popular-hover-wraper{
     display: block;
 }
-
 .popular-container-action-price{
     display: inline-block;
     background-color: white;
@@ -743,7 +712,6 @@ hr{
     height: 180px;
     margin-top: 22px;
     padding: 5% 30%;
-
 }
 .popular-container-action>div>p{
     margin: 0;
@@ -758,7 +726,6 @@ hr{
     font-size: 36px;
     font-weight: 700;
 }
-
 .popular-container-description-gallery .carousel-inner>.item>img{
     display: inline;
 }
@@ -827,7 +794,6 @@ hr{
     display: inline-block;
     margin-top: -330px;
     left: 58%;
-
 }
 .footer-logo-box{
     display: inline-block;
@@ -872,12 +838,9 @@ hr{
     border-bottom: 2px solid #43aa26;
     padding-bottom: 2px;
 }
-
 .footer-menu > li {
     position: relative;
     padding: 5px 0;
-}
-footer ul li {
 }
 .footer-sub-menu li {
     margin: 0 20px;
@@ -896,7 +859,6 @@ footer ul li {
     background-color: white;
     box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.5);
 }
-
 .footer-menu > li:hover .footer-sub-menu {
     display: block;
     color: black;
